@@ -1,8 +1,9 @@
 package com.javatechie.service;
 
-import com.javatechie.dto.Product;
-import com.javatechie.entity.UserInfo;
-import com.javatechie.repository.UserInfoRepository;
+import com.dto.Product;
+import com.entity.UserInfo;
+import com.repository.UserInfoRepository;
+
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

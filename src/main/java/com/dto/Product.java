@@ -1,4 +1,4 @@
-package com.javatechie.dto;
+package com.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,8 +11,8 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Product {
 
-    private int productId;
-    private String name;
-    private int qty;
-    private double price;
+	private int productId;
+	private String name;
+	private int qty;
+	private double price;
 }
